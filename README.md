@@ -79,3 +79,8 @@ Descrição dos Arquivos
 ``` 
 ## Arquivos Gerados na Execução
 Na pasta "arquivos gerados na execução", estão os arquivos que serão gerados após a execução correta do projeto, permitindo análise e comparação.
+
+## Observações sobre a Implementação
+O projeto incluía uma etapa onde era necessário separar o "local da reunião" dos dados fornecidos. No entanto, a API utilizada não forneceu esta informação específica. Por esse motivo, optei por não implementar algoritmos de busca para determinar o local da reunião, devido à sua potencial instabilidade e risco de inconsistências nos resultados.
+
+A decisão foi tomada para garantir a integridade e a precisão dos dados processados, mantendo a confiabilidade da aplicação. 
