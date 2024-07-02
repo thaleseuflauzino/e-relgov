@@ -31,7 +31,7 @@ def processar_dados_json(dados):
 
 # Função para formatar descrição em Markdown com ênfase em "Manhã", "Tarde" e "Noite"
 def formatar_descricao_markdown(descricao):
-    descricao_formatada = descricao.replace('Manhã', '<br>**Manhã**<br>').replace('Tarde', '<br>**Tarde**<br>').replace('Noite', '<br>**Noite**<br>')
+    descricao_formatada = descricao.replace('Manhã', '<br>Descricao<br><br>**Manhã**<br>').replace('Tarde', '<br>**Tarde**<br>').replace('Noite', '<br>**Noite**<br>')
     return descricao_formatada
 
 # Nome do arquivo JSON
