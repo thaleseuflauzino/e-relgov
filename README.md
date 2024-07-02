@@ -49,7 +49,7 @@ Execute o script de processamento para gerar os arquivos .xlsx e .md:
 ```sh
 python parse.py
 ```
-##### Após isso, será gerado um eventos_processados.md e um eventos_processados.xlsx, permitindo assim, ao usuário, escolher a forma que preferir, ler todo o projeto.
+##### Após isso, serão gerados os arquivos eventos_processados.md e eventos_processados.xlsx, permitindo ao usuário escolher a forma preferida para ler os dados.
 
 Estrutura do Projeto
 
@@ -65,7 +65,6 @@ e-relgov/
 │   ├── pipelines.py
 │   ├── settings.py
 │   └── ...
-├── output.json
 ├── parse.py
 ├── requirements.txt
 └── README.md
@@ -74,7 +73,9 @@ e-relgov/
 Descrição dos Arquivos
 - bcb/: Diretório do projeto Scrapy.
 - spiders/: Contém o spider agenda_api.py que realiza a raspagem dos dados.
-- output.json: Arquivo JSON gerado pelo spider contendo os dados raspados.
 - parse.py: Script Python para processar os dados do JSON e salvar em .xlsx e .md.
 - requirements.txt: Lista de dependências do projeto.
 - README.md: Este arquivo de documentação.
+``` 
+## Arquivos Gerados na Execução
+Na pasta "arquivos gerados na execução", estão os arquivos que serão gerados após a execução correta do projeto, permitindo análise e comparação.
