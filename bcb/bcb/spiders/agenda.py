@@ -1,11 +1,9 @@
 import scrapy
 from datetime import datetime, timedelta
-import subprocess
 import json
 
 class AgendaSpider(scrapy.Spider):
     name = 'agenda_api'
-    allowed_domains = ['www.bcb.gov.br']
     start_date = datetime(2023, 2, 28)  # Data de início ajustada
     end_date = datetime(2024, 6, 28)    # Data de fim ajustada
     custom_settings = {
